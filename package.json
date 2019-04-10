@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec && nyc mocha"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,8 @@
   "dependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.1.2"
+  },
+  "devDependencies": {
+    "nyc": "^13.3.0"
   }
 }
