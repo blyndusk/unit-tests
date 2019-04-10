@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec && nyc mocha"
+    "test": "mocha --reporter spec && nyc mocha && cucumber-js"
   },
   "keywords": [],
   "author": "",
